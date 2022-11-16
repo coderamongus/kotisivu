@@ -9,10 +9,29 @@
     
 </head>
 <style>
-    
+    .container {
+        
+    }
+    .tyonayte {
+        margin: 10px auto;
+        width: 800px;
+    }
+    .tyonayte img {
+        width: 100%
+    }
+
+    .btn-tyonayte {
+        width: 100%;
+    }
+
+    @media (max-width: 780px) {
+        .tyonayte {
+            width: 100%;
+        }
+    }   
 </style>
 <body>
-<center>
+
     <div class="linkit">
         <ul>
             <li><a href="index.html">Kotisivu</a></li>
@@ -22,18 +41,19 @@
             <li><a href= "galleria.html">Peugeot Galleria</a></li>
         </ul>
     </div>
-    <div class="tyonaytteet">
-        <img src ="media/responsiivinen.png">
-        <a href="../projektit/responsiivinen/Index.html">
-            <button class="button button3">Responsiivinen nettisivu</button><br>
-        </a>
-
-        <img src="media/responsiivinen2.png">
-        <a href="../projektit/responsiivinenbootstrap/Index.html">
-            <button class="button button3">Responsiivinen nettisivu bootstrapilla</button><br>
-        </a>
+    <div class="container">
+        <div class="tyonayte">
+            <img src ="media/responsiivinen.png">
+            <a href="../projektit/responsiivinen/Index.html">
+                <button class="button btn-tyonayte">Responsiivinen nettisivu</button><br>
+            </a>
+        </div>
+        <div class="tyonayte">
+            <img src="media/responsiivinen2.png">
+            <a href="../projektit/responsiivinenbootstrap/Index.html">
+                <button class="button btn-tyonayte">Responsiivinen nettisivu bootstrapilla</button><br>
+            </a>
+        </div>
     </div>
-
-</center>
 </body>
 </html> 
